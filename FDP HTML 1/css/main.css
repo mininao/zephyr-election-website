@@ -1,0 +1,39 @@
+.caption{
+    margin-left: 59.1549%;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    text-align:center;
+    display:block;
+    margin:auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.blackbox{
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    padding: 14px;
+}
+
+.mdp:link{
+    color:white;
+}
+
+.mdp:visited {
+    color:white;
+}
+
+.mdp:hover {
+    color:white;
+}
+
+.mdp:active {
+    color:white;
+}
