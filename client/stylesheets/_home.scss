@@ -1,0 +1,41 @@
+.home.page {
+	section.hero {
+		//@include cover('/img/bg3.jpg');
+		height: 1020px;
+		position: relative;
+		background: #423748;
+		.bg-overlay {
+			width: 100%;
+			height: 70%;
+			//background: linear-gradient( to bottom, transparent, rgba(66, 55, 72, 0.80) 50% , rgba(66, 55, 72, 0.90) 70%,#423748);
+			position: absolute;
+			bottom: 0;
+			right: 0;
+		}
+		h1.title {
+			text-align: left;
+			padding: 3rem;
+			img {
+				height: 10rem;
+			}
+		}
+		.row.title {
+			$th: 5rem;
+			margin-top: $th/2;
+			height: $th;
+			max-width: none;
+			img {
+				height: $th;
+			}
+		}
+	}
+	section.cta {
+		background-color: #201e22;
+		h2 {
+			color: white;
+			height:400px;
+		}
+	}
+}
+
+//rgb(66, 55, 72)

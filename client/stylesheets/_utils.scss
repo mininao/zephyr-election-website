@@ -1,0 +1,9 @@
+.nomarginfusion {height: .01px; width: 100%;background-color: black;}
+
+@mixin cover($url) {
+	background-image: url($url);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
