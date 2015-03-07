@@ -1,23 +1,42 @@
 <template name="home">
 	<div class="home page">
 		<section class="hero">
-			<div class="nomarginfusion"></div>
 			<div class="videobg">
-				<!--<iframe width="120%" height="120%" src="https://www.youtube-nocookie.com/embed/13wt6cmCRK0?rel=0&controls=0&autoplay=1&loop=1&modestbranding=1&showinfo=0&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>-->
-				<video preload loop autoplay>
+				<video preload loop autoplay muted>
 				  <source src="/videobg.mp4" type="video/mp4">
 				  <source src="/videobg.webm" type="video/webm">
-				  Your browser does not support the <code>video</code> element.
+				  Utilisez un navigateur plus récent !
 				</video>
 			</div>
-			<div class="dotoverlay"></div>
-			<!--<h1 class="title"><img src="/img/logo2.svg" alt="ZEPHYR JOBS"></h1>-->
-			<h1>Nous sommes<br><em>ZEPHYR</em></h1>
+			<div class="top">
+				<img class="logo" src="/img/logoc.svg" alt="">
+				<h1 class="motto">ZEPHYR</h1>
+			</div>
 		</section>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, architecto expedita eos natus ab vitae harum, nihil qui, minima nesciunt at quod perspiciatis? Laboriosam libero odio animi, magnam perferendis voluptate?</p>
-<!--		<section class="cta">
-			<div class="nomarginfusion"></div>
-			<h2>Hey you</h2>
-		</section>-->
+		<section class="wedo">
+			<div class="row main">
+				<h2>Nous voulons faire de l'esiee un endroit plus <em class="change">collaboratif</em><span class="blink">|</span></h2>
+				<div class="bar"></div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, natus. Reprehenderit architecto nobis in, delectus soluta esse repellat assumenda, dolorem enim fugit eveniet dicta voluptates, ipsa iure! Molestias, totam, adipisci.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus nihil deleniti ratione ex consectetur tenetur, natus id necessitatibus ipsum aspernatur assumenda enim laborum rerum, dicta nemo deserunt neque at incidunt!</p>
+				<div class="nomarginfusion"></div>
+				<a href="/programme" class="read">
+					<div class="read">Lire notre programme</div>
+				</a>
+				
+			</div>
+		</section>
+		<section class="multimedia">
+			<div class="row main">
+				<div class="medium-12 large-6 columns">
+					<h2>Video de campagne</h2>
+					<div class="row video">
+						<iframe src="https://player.vimeo.com/video/115917842?color=ffffff&title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="medium-12 large-6 columns">
+					<h2>Bla bla de campagne</h2>
+				</div>				
+			</div>
+		</section>	
 	</div>
 </template>

@@ -1,76 +1,115 @@
 .home.page {
 	section.hero {
-		//@include cover('/img/bg3.jpg');
 		height: 1020px;
 		position: relative;
-		//background: #423748;
 		.videobg {
 			z-index: -2;
 			position: absolute;
 			width: 100%;
 			height: 100%;
 			overflow: hidden;
+			display: flex;
+			justify-content: center;
 			video {
 				height: 120%;
-				width: 120%;
-				position: relative;
-				top:-10%;
-				left: -10%;
+
 			}
 		}
-		.dotoverlay {
+		/*.dotoverlay {
 			z-index: -1;
 			background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAD0lEQVQImWNgwAL+Y4gAABIVAQDGiCc/AAAAAElFTkSuQmCC) repeat;
 			position: absolute;
 			width: 100%;
 			height: 100%;			
-		}
-		.bg-overlay {
+		}*/
+		div.top {
 			width: 100%;
-			height: 70%;
-			//background: linear-gradient( to bottom, transparent, rgba(66, 55, 72, 0.80) 50% , rgba(66, 55, 72, 0.90) 70%,#423748);
-			position: absolute;
-			bottom: 0;
-			right: 0;
-		}
-		h1.title {
-			text-align: left;
-			padding: 3rem;
-			img {
-				height: 10rem;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			img.logo {
+				width: 20rem;
+				margin-right: auto;
+				margin-left: auto;
+				display: block;
 			}
+			h1.motto {
+				margin-top: 5rem;
+				margin-bottom: 5rem;
+				text-align: center;
+				font-size: 5rem;
+				//font-family: "Lato";
+				color: #F06546;
+				line-height: 1;
+			}			
 		}
-		h1 {
-			margin-top: 10rem;
-			text-align: center;
-			font-size: 16rem;
-			font-family: "Ostrich sans";
-			color: #ad2626;
-			line-height: 1;
-			em {
-				text-decoration: none;
-				text-emphasis: none;
-				font-style:normal;
-				font-family: "Lato Light";
+
+
+	}
+	section.wedo {
+		.row.main {
+			padding-top: 7.8125rem;
+			padding-bottom: 7.8125rem;
+			h2 {
+				text-transform: uppercase;
+				text-align: center;
+				font-size: .75*6.25rem;
+				margin-bottom: 0;
+				em {
+					color: #F06546;
+					font-style: normal;
+				}
+				.blink {
+					font-family: "Source Sans Pro";
+					position: relative;
+					top: -.8rem;
+					color: #F06546;
+					animation: blink 3s steps(2, start) infinite;
+				}
 			}
-		}
-		.row.title {
-			$th: 5rem;
-			margin-top: $th/2;
-			height: $th;
-			max-width: none;
-			img {
-				height: $th;
+			p {
+				font-size: 1.5rem;
+				text-align: justify;
+			}
+			div.bar {
+				height: 1rem;
+				width: 20rem;
+				background-color: #F06546;
+				margin: 2.57rem auto;
+				border-radius: 2px;
+			}
+			a.read {
+
+				div.read {
+				padding: 3rem 6rem;
+				border:3px #F06546 solid;
+				border-radius: 2px;
+				font-size: 1.5rem;
+				text-align: center;
+				display: inline;
+				}
 			}
 		}
 	}
-	section.cta {
-		background-color: #201e22;
-		h2 {
-			color: white;
-			height:400px;
+	section.multimedia {
+		background-color: #364347;
+		.row.main {
+			
+			padding-top: 7.8125rem;
+			h2 {
+				font-size: 6.25rem;
+				text-transform: uppercase;
+				text-align: center;
+				color: #F06546;
+			}
+			.row.video {
+				iframe {
+					max-width: 50rem;
+					min-height: 20rem;
+				}
+			}
 		}
 	}
 }
-
-//rgb(66, 55, 72)
