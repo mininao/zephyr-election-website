@@ -26,6 +26,16 @@ Template.home.rendered = function () {
 		loop: true,
 		loopCount: false,		
       });
+	
+	// Init scrollmagic
+	var controller = new ScrollMagic.Controller();
+	console.log(_.keys(ScrollMagic))
+	// test scene
+	var scene = new ScrollMagic.Scene({ duration: 300})
+					// animate color and top border in relation to scroll position
+					.setTween("h1.motto", {scale: 2}) // the tween durtion can be omitted and defaults to 1
+					//.addIndicators({name: "2 (duration: 300)"}) // add indicators (requires plugin)
+					.addTo(controller);
 }
 
 Template.home.destroyed = function () {

@@ -20,12 +20,11 @@ follower-livedata@1.0.3
 fourseven:scss@1.0.0
 geojson-utils@1.0.2
 google@1.1.4
-hipstersmoothie:scrollmagic@0.0.2
 html-tools@1.0.3
 htmljs@1.0.3
 http@1.0.10
 id-map@1.0.2
-infinitedg:gsap@1.13.1
+infinitedg:gsap@1.14.2
 iron:controller@1.0.7
 iron:core@1.0.7
 iron:dynamic-template@1.0.7
