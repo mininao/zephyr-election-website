@@ -1,0 +1,16 @@
+		position: relative;
+		$mainColor: #a88cd5;
+		div.gb {
+			background-image: url('/img/people3.jpg');
+			background-repeat: repeat-x;
+			background-size: contain;
+			width: 300%;
+			position: absolute;
+			top:0;
+			left: 0%;
+			height: 100%;
+		}
+		
+		
+		
+		<div class="bg"></div>

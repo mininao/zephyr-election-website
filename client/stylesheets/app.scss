@@ -5,9 +5,14 @@
   src: url('/fonts/norwester.eot?') format('eot'), url('/fonts/norwester.woff') format('woff'), url('/fonts/norwester.ttf') format('truetype');
 }
 @keyframes blink {
-  to {
-	visibility: hidden;
-  }
+  0% {
+    opacity: 1; }
+
+  50% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; }
 }	
 
 $body-font-family: "Source Sans Pro", sans-serif;
@@ -15,10 +20,14 @@ $body-font-family: "Source Sans Pro", sans-serif;
 $header-font-family: "Norwester","Source Sans Pro", sans-serif;
 $header-font-color: #364347;
 
+$anchor-font-color: inherit;
+$anchor-font-color-hover: inherit;
+
 @import "../../.meteor/local/build/programs/server/assets/packages/matthew_foundation5-sass/foundation";
 
 //General sytles
 @import "utils";
+@import "sections";
 body {
 }
 

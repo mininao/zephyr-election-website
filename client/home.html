@@ -1,5 +1,6 @@
 <template name="home">
 	<div class="home page">
+	
 		<section class="hero">
 			<div class="videobg">
 				<video preload loop autoplay muted>
@@ -13,30 +14,137 @@
 				<h1 class="motto" id="caca">ZEPHYR</h1>
 			</div>
 		</section>
-		<section class="wedo">
+		
+		<section class="wedo" id="wedo">
 			<div class="row main">
-				<h2>Nous voulons faire de l'esiee un endroit plus <em class="change">collaboratif</em><span class="blink">|</span></h2>
+				<h2>Nous voulons faire de l'esiee un endroit plus <span class="small-screen-br"><br></span><em class="change"></em><span class="blink">|</span></h2>
 				<div class="bar"></div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, natus. Reprehenderit architecto nobis in, delectus soluta esse repellat assumenda, dolorem enim fugit eveniet dicta voluptates, ipsa iure! Molestias, totam, adipisci.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus nihil deleniti ratione ex consectetur tenetur, natus id necessitatibus ipsum aspernatur assumenda enim laborum rerum, dicta nemo deserunt neque at incidunt!</p>
 				<div class="nomarginfusion"></div>
-				<a href="/programme" class="read">
-					<div class="read">Lire notre programme</div>
+				<a href="/programme">
+					<div class="row readButton">
+						<div class="small-11 small-centered medium-6 medium-centered large-5 large-centered columns">
+							Lire notre programme
+						</div>
+					</div>
 				</a>
-				
+
 			</div>
 		</section>
-		<section class="multimedia">
+		
+		<section class="se">
 			<div class="row main">
-				<div class="medium-12 large-6 columns">
-					<h2>Video de campagne</h2>
-					<div class="row video">
-						<iframe src="https://player.vimeo.com/video/115917842?color=ffffff&title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<h2>Semaine d'elections</h2>
+				<div class="bar"></div>
+				<div class="nomarginfusion"></div>
+				<div class="row medias">
+					<div class="medium-12 large-4 columns">
+						<h3>Video de presentation</h3>
+						<div class="video">
+							<div class="thumbnail" style="background-image:url(/img/hjaune2.jpg); ">
+								<i class="ion-ios-play"></i>
+							</div>
+							<div class="title">
+								<h4>Regarder</h4>
+							</div>
+						</div>
 					</div>
+					<div class="medium-12 large-4 columns">
+						<h3>Blabla de campagne</h3>
+						<div class="video">
+							<div class="thumbnail" style="background-image:url(/img/hjaune2.jpg); ">
+								<i class="ion-ios-book"></i>
+							</div>
+							<div class="title">
+								<h4>Lire</h4>
+							</div>
+						</div>					
+					</div>
+					<div class="medium-12 large-4 columns">
+						<h3>Activites de la semaine</h3>
+						<div class="video">
+							<div class="thumbnail" style="background-image:url(/img/hjaune2.jpg); ">
+								<i class="ion-ios-list"></i>
+							</div>
+							<div class="title">
+								<h4>Découvrir</h4>
+							</div>
+						</div>	
+					</div>	
 				</div>
-				<div class="medium-12 large-6 columns">
-					<h2>Bla bla de campagne</h2>
-				</div>				
+				<a href="/register">
+					<div class="row registerButton">
+						<div class="small-11 small-centered medium-6 medium-centered large-5 large-centered columns">
+							Inscription aux activites
+						</div>
+					</div>
+				</a>			
 			</div>
-		</section>	
+		</section>
+		
+		<section class="team" id="team">
+			<div class="row main">
+				<h2>Nous sommes zephyr</h2>
+				<div class="nomarginfusion"></div>
+				<a href="/nous">
+					<div class="row readButton">
+						<div class="small-11 small-centered medium-6 medium-centered large-5 large-centered columns">
+							Decouvrez-nous !
+						</div>
+					</div>
+				</a>
+
+			</div>
+		</section>
+		
+<section class="se" style="height:4000px">
+			<div class="row main">
+				<h2>Semaine d'elections</h2>
+				<div class="bar"></div>
+				<div class="nomarginfusion"></div>
+				<div class="row medias">
+					<div class="medium-12 large-4 columns">
+						<h3>Video de presentation</h3>
+						<div class="video">
+							<div class="thumbnail" style="background-image:url(/img/hjaune2.jpg); ">
+								<i class="ion-ios-play"></i>
+							</div>
+							<div class="title">
+								<h4>Regarder</h4>
+							</div>
+						</div>
+					</div>
+					<div class="medium-12 large-4 columns">
+						<h3>Blabla de campagne</h3>
+						<div class="video">
+							<div class="thumbnail" style="background-image:url(/img/hjaune2.jpg); ">
+								<i class="ion-ios-book"></i>
+							</div>
+							<div class="title">
+								<h4>Lire</h4>
+							</div>
+						</div>					
+					</div>
+					<div class="medium-12 large-4 columns">
+						<h3>Activites de la semaine</h3>
+						<div class="video">
+							<div class="thumbnail" style="background-image:url(/img/hjaune2.jpg); ">
+								<i class="ion-ios-list"></i>
+							</div>
+							<div class="title">
+								<h4>Découvrir</h4>
+							</div>
+						</div>	
+					</div>	
+				</div>
+				<a href="/register">
+					<div class="row registerButton">
+						<div class="small-11 small-centered medium-6 medium-centered large-5 large-centered columns">
+							Inscription aux activites
+						</div>
+					</div>
+				</a>			
+			</div>
+		</section>
 	</div>
 </template>
