@@ -1,0 +1,20 @@
+<template name="nav">
+	<nav class="main">
+		<div class="nomarginfusion"></div>
+		<div class="row">
+			<div class="medium-12 large-3 columns brand">
+				<h1>Zephyr</h1>
+			</div>
+			<div class="medium-12 large-9 columns">
+				<div class="links">
+					<a href="{{pathFor route='home'}}">{{_ "nav_home"}}</a>
+					<a href="{{pathFor route='program'}}">{{_ "nav_program"}}</a>
+					<a href="{{pathFor route='team'}}">{{_ "nav_team"}}</a>
+					<a href="{{pathFor route='register'}}">{{_ "nav_register"}}</a>
+					<a href="#" class="toggleLang">{{_ "nav_toggleLang"}}</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	
+</template>

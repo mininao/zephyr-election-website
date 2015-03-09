@@ -1,0 +1,49 @@
+$navHeight: 6rem;
+nav.main {
+	$bgColor:#364347;
+	$brandColor: #93a4aa;
+	padding: 0 2rem;
+	width: 100%;
+	background-color: $bgColor;
+	height: $navHeight;
+	opacity: 1;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	.row {
+		max-width: none;
+	}
+	.brand {
+		img {
+			height: $navHeight*0.8;
+			margin-top: $navHeight*0.1;
+		}
+		h1 {
+			color: $brandColor;
+			text-transform: uppercase;
+			line-height: $navHeight;
+			margin: 0;
+			margin-top: .2rem;
+			text-align: center;
+		}		
+	}
+	.links {
+		text-align: right;
+		a {
+			color: #b2c6cd;
+			margin-left: 2rem;
+			line-height: $navHeight;
+			transition: color .2s ease;
+			height: $navHeight;
+			display: inline-block;
+		}
+		a:hover,a:focus {
+			color: #d6e1e5;
+		}
+	}
+}
+.navspacer {
+	height: $navHeight;
+	padding: 0;
+	margin: 0;
+}

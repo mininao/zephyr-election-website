@@ -13,7 +13,15 @@
 	"home_se_activities_action":"Discover",
 	"home_se_register":"Register to the activities",
 	"home_us_title":"We are zephyr",
-	"home_us_button":"Check out the team!"
+	"home_us_button":"Check out the team!",
 	
+	//NAVIGATION
+	"nav_program":"Our program",
+	"nav_team":"The team",
+	"nav_register":"Register to activities",
+	"nav_home":"Home",
+	"nav_toggleLang":"Français",
 	
+	//REGISTER
+	"register_pagetitle":"Register to our activities"
 }

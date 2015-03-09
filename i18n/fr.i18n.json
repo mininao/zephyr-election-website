@@ -1,4 +1,5 @@
 {
+	// HOME
 	"home_motto_title": "Nous voulons faire de l\u0027esiee un endroit plus  <span class=\"small-screen-br\"><br></span>",
 	"home_motto_adjectives": ["collaboratif.", "fun.", "agreable.", "libre."],
 	"home_motto_paragraph": "Français Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec dolor molestie lacus aliquet lobortis. Donec mollis dictum massa eu sollicitudin. Nunc non sapien mauris. Praesent porta in tortor eget dictum. Cras suscipit facilisis nibh. Morbi sit amet nulla justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ",
@@ -7,10 +8,20 @@
 	"home_se_presentation": "Video de presentation",
 	"home_se_presentation_action": "Regarder",
 	"home_se_blabla": "Blabla de campagne",
-	"home_se_blabla_action": "lire",
+	"home_se_blabla_action": "Lire",
 	"home_se_activities": "Activites de la semaine",
 	"home_se_activities_action": "Découvrir",
 	"home_se_register": "Inscription aux activites",
 	"home_us_title": "Nous sommes zephyr",
-	"home_us_button": "Decouvrez l'equipe !"
+	"home_us_button": "Decouvrez l'equipe !",
+	
+	//NAVIGATION
+	"nav_program":"Programme",
+	"nav_team":"L'équipe",
+	"nav_register":"Inscription aux activités",
+	"nav_home":"Accueil",
+	"nav_toggleLang":"English",	
+	
+	//REGISTER
+	"register_pagetitle":"Inscription aux activites de la semaine"	
 }

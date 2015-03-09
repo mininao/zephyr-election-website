@@ -38,7 +38,8 @@ Router.route('/', function () {
   this.render('home');
   
 }, {
-  name: 'home'
+	name: 'home',
+	layoutTemplate:'barebonesLayout'
 });
 
 Router.route('/program', function () {
@@ -55,22 +56,10 @@ Router.route('/register', function () {
   name: 'register'
 });
 
-// GAME PAGE
-/*Router.route('/game', function () {
-
-  this.render('game');
-
+Router.route('/team', function () {
+  this.render('team');
+  
 }, {
-  name: 'game',
-  waitOn: function () {
+  name: 'team'
+});
 
-    if (Meteor.userId()) {
-      this.subscribe("challenges").wait();
-      this.subscribe("userData").wait();
-      this.subscribe("userCount").wait();
-    }  
-  }
-});*/
-
-
-// ADMIN ROUTES

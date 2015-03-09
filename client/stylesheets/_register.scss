@@ -1,0 +1,12 @@
+.register.page {
+	$bgColor: #364347;
+	$mainColor: #fad46b;
+	min-height: 110%;
+	background-color: $bgColor;
+	section.register {
+		h1 {
+			color: $mainColor;
+			@include sectionTitle();
+		}
+	}
+}

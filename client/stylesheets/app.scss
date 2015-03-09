@@ -28,8 +28,14 @@ $anchor-font-color-hover: inherit;
 //General sytles
 @import "utils";
 @import "sections";
+
+// Patials styles
+@import "nav";
+@import "footer";
+
 body {
 }
 
 // Pages
 @import "home";
+@import "register";

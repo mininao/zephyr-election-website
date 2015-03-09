@@ -21,7 +21,7 @@
 				<div class="bar"></div>
 				<p>{{_ "home_motto_paragraph"}}</p>
 				<div class="nomarginfusion"></div>
-				<a href="/programme">
+				<a href="{{pathFor route='program'}}">
 					<div class="row readButton">
 						<div class="small-11 small-centered medium-6 medium-centered large-5 large-centered columns">
 							{{_ "home_motto_button"}}
@@ -72,7 +72,7 @@
 						</div>	
 					</div>	
 				</div>
-				<a href="/register">
+				<a href="{{pathFor route='register'}}">
 					<div class="row registerButton">
 						<div class="small-11 small-centered medium-6 medium-centered large-5 large-centered columns">
 							{{_ "home_se_register"}}
@@ -86,7 +86,7 @@
 			<div class="row main">
 				<h2>{{_ "home_us_title"}}</h2>
 				<div class="nomarginfusion"></div>
-				<a href="/nous">
+				<a href="{{pathFor route='team'}}">
 					<div class="row readButton">
 						<div class="small-11 small-centered medium-6 medium-centered large-5 large-centered columns">
 							{{_ "home_us_button"}}
@@ -97,54 +97,5 @@
 			</div>
 		</section>
 		
-<section class="se" style="height:4000px">
-			<div class="row main">
-				<h2>Semaine d'elections</h2>
-				<div class="bar"></div>
-				<div class="nomarginfusion"></div>
-				<div class="row medias">
-					<div class="medium-12 large-4 columns">
-						<h3>Video de presentation</h3>
-						<div class="video">
-							<div class="thumbnail" style="background-image:url(/img/hjaune2.jpg); ">
-								<i class="ion-ios-play"></i>
-							</div>
-							<div class="title">
-								<h4>Regarder</h4>
-							</div>
-						</div>
-					</div>
-					<div class="medium-12 large-4 columns">
-						<h3>Blabla de campagne</h3>
-						<div class="video">
-							<div class="thumbnail" style="background-image:url(/img/hjaune2.jpg); ">
-								<i class="ion-ios-book"></i>
-							</div>
-							<div class="title">
-								<h4>Lire</h4>
-							</div>
-						</div>					
-					</div>
-					<div class="medium-12 large-4 columns">
-						<h3>Activites de la semaine</h3>
-						<div class="video">
-							<div class="thumbnail" style="background-image:url(/img/hjaune2.jpg); ">
-								<i class="ion-ios-list"></i>
-							</div>
-							<div class="title">
-								<h4>Découvrir</h4>
-							</div>
-						</div>	
-					</div>	
-				</div>
-				<a href="/register">
-					<div class="row registerButton">
-						<div class="small-11 small-centered medium-6 medium-centered large-5 large-centered columns">
-							Inscription aux activites
-						</div>
-					</div>
-				</a>			
-			</div>
-		</section>
 	</div>
 </template>
