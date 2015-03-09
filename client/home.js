@@ -29,7 +29,6 @@ Template.home.rendered = function () {
 			loopCount: false,		
 		  });
 	}
-	console.log(TAPi18n.__("home_motto_adjectives", {returnObjectTrees: true}))
 	
 	// Init scrollmagic
 	controller = new ScrollMagic.Controller();

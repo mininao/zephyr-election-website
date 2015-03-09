@@ -1,4 +1,5 @@
 {
+	// HOME
 	"home_motto_title": "We want esiee to be <br> more <span class=\"small-screen-br\"><br></span>",
 	"home_motto_adjectives": ["collaborative.", "fun.", "agreable.", "free."],
  	"home_motto_paragraph":"English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec dolor molestie lacus aliquet lobortis. Donec mollis dictum massa eu sollicitudin. Nunc non sapien mauris. Praesent porta in tortor eget dictum. Cras suscipit facilisis nibh. Morbi sit amet nulla justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
@@ -13,5 +14,6 @@
 	"home_se_register":"Register to the activities",
 	"home_us_title":"We are zephyr",
 	"home_us_button":"Check out the team!"
-
+	
+	
 }

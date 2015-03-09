@@ -41,6 +41,19 @@ Router.route('/', function () {
   name: 'home'
 });
 
+Router.route('/program', function () {
+  this.render('program');
+  
+}, {
+  name: 'program'
+});
+
+Router.route('/register', function () {
+  this.render('register');
+  
+}, {
+  name: 'register'
+});
 
 // GAME PAGE
 /*Router.route('/game', function () {
