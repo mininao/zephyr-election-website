@@ -6,9 +6,16 @@ Router.configure({
   waitOn: function () {
     if (Meteor.userId()) {
       this.subscribe("userData").wait();
-    }     
-    
-  }
+    }
+  },
+    i18n: {
+		setLanguage: function(lang) {
+          TAPi18n.setLanguage(lang);
+        },
+        languages: ['fr', 'en'],
+		defaultLanguage: 'fr'
+
+    }	
 });
 
 //Check user login
@@ -29,6 +36,7 @@ Router.onBeforeAction(function () {
 // HOMEPAGE
 Router.route('/', function () {
   this.render('home');
+  
 }, {
   name: 'home'
 });

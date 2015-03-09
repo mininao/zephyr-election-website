@@ -21,7 +21,7 @@ Template.home.rendered = function () {
 	//var typer;
 	var startTyping = function() {
 		typer = $('em.change').typed({
-			strings: ["collaboratif.", "fun.", "agreable.", "libre."],
+			strings: TAPi18n.__("home_motto_adjectives", {returnObjectTrees: true}),
 			typeSpeed: 70,
 			backDelay: 2000,
 			showCursor: false,
@@ -29,7 +29,7 @@ Template.home.rendered = function () {
 			loopCount: false,		
 		  });
 	}
-
+	console.log(TAPi18n.__("home_motto_adjectives", {returnObjectTrees: true}))
 	
 	// Init scrollmagic
 	controller = new ScrollMagic.Controller();
