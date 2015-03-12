@@ -4,43 +4,37 @@ nav.main {
 	$brandColor: #93a4aa;
 	padding: 0 2rem;
 	width: 100%;
-	background-color: $bgColor;
+	
 	height: $navHeight;
-	opacity: 1;
+	opacity: .5;
 	position: fixed;
-	top: 0;
+	top: -$navHeight;
 	z-index: 100;
-	.row {
+	.row.muted {
+		$mutedColor:#b2c6cd;
 		max-width: none;
-	}
-	.brand {
-		img {
-			height: $navHeight*0.8;
-			margin-top: $navHeight*0.1;
-		}
-		h1 {
-			color: $brandColor;
+		background-color: transparent;
+		text-align: right;
+		.brand h1 {
+			color: rgba(147, 164, 170, 0.8);
 			text-transform: uppercase;
 			line-height: $navHeight;
 			margin: 0;
 			margin-top: .2rem;
-			text-align: center;
-		}		
-	}
-	.links {
-		text-align: right;
-		a {
-			color: #b2c6cd;
-			margin-left: 2rem;
-			line-height: $navHeight;
-			transition: color .2s ease;
-			height: $navHeight;
-			display: inline-block;
+			text-align: left;
 		}
-		a:hover,a:focus {
-			color: #d6e1e5;
+		.menu {
+			$fontSize: 1.7rem;
+			i{
+				display: inline-block;
+				height: $navHeight;
+				line-height: $navHeight;
+				font-size: $fontSize;
+				color: $mutedColor;
+			}
 		}
 	}
+
 }
 .navspacer {
 	height: $navHeight;

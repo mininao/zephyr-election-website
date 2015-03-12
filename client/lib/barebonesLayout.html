@@ -1,7 +1,12 @@
 <template name="barebonesLayout">
-
+	{{>topnav}}
+	<div class="navWrap">
+	<div class="navOverlay"></div>
+	{{>nav}}
 	{{> yield}}
 	{{> footer}}
+	</div>
+
 	
 	{{initFoundation}}
 	{{> smoothScroll}}

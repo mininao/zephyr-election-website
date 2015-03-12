@@ -1,0 +1,44 @@
+.navWrap {
+	position: relative;
+	overflow: hidden;
+	.navOverlay {
+		position: absolute;
+		width: 0%;
+		height: 0%;
+		top: 0;
+		left: 0;
+		background: rgba(94, 105, 109, 0.70);
+		opacity: 0;
+		z-index: 5;
+	}
+}
+$topNavHeight: 10rem;
+nav.topnav {
+	
+	$topNavBg: #364347;
+	
+	min-height: 10rem;
+	background-color: $topNavBg;
+	z-index: 2000;
+	position: fixed;
+	width: 100%;
+	.menu {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		text-align: center;
+		.item {
+			font-family: $body-font-family;
+			font-size: 2rem;
+			padding: 3rem 2rem;
+			text-transform: uppercase;
+			font-weight: 300;
+			
+		}
+			.home {color: #009dcd;}
+			.program {color: #d05034;}
+			.team {color: #9175bd;}
+			.register {color: #f3bc65;}
+			.lang {color: #b2c6cd;}		
+	}
+}

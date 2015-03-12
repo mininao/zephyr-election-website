@@ -2,7 +2,7 @@
 	// HOME
 	"home_motto_title": "Nous voulons faire de l\u0027esiee un endroit plus  <span class=\"small-screen-br\"><br></span>",
 	"home_motto_adjectives": ["collaboratif.", "fun.", "agreable.", "libre."],
-	"home_motto_paragraph": "Français Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec dolor molestie lacus aliquet lobortis. Donec mollis dictum massa eu sollicitudin. Nunc non sapien mauris. Praesent porta in tortor eget dictum. Cras suscipit facilisis nibh. Morbi sit amet nulla justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ",
+	"home_motto_paragraph": "Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente. L'avantage de le mettre en latin est que l'opérateur sait au premier coup d'oeil que la page contenant ces lignes n'est pas valide, et surtout l'attention du client n'est pas dérangée par le contenu, il demeure concentré seulement sur l'aspect graphique.",
 	"home_motto_button": "Lire notre programme",
 	"home_se_title": "Semaine d'elections",
 	"home_se_presentation": "Video de presentation",

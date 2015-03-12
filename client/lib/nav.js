@@ -1,15 +1,6 @@
 var showNav,hideNav,navShown;
 Template.nav.rendered = function() {
-/*	var initNav = function(show) {
-		if(show){
-			$('nav.main').css('top',0).css('opacity',1).css('background-opacity',0);
-			alert("alooo")
-			navShown = true;
-		} else
-			navShown = false;
-			
-	}*/
-	navShown = true;
+	navShown = false;
 	showNav = function() {
 		if(!navShown){
 			var tween = new TweenLite($('nav.main'),0.5,{opacity:1,top:0});
@@ -17,16 +8,25 @@ Template.nav.rendered = function() {
 		}
 		
 	}
-	hideNav = function() {
+	hideNav = function(nomove) {
 		if(navShown) {
 			var nav = $('nav.main');
 			var height = nav.height();
-			var tween = new TweenLite(nav,0.5,{opacity:0.5,top:-height});
+			if(nomove === true)
+				var tween = new TweenLite(nav,0.15,{opacity:0,top:-height});
+			else
+				var tween = new TweenLite(nav,0.5,{opacity:0.5,top:-height});
 			navShown = false;
 		}
 
 	}
-/*	initNav(true);*/
+	$('nav.main .menu').on("click", function(){
+		$('nav.topnav .toggle').click();
+		hideNav(true);
+	});
+	
+	
+	
 	;(function () {
 		var previousScroll = 0;
 
@@ -41,11 +41,9 @@ Template.nav.rendered = function() {
 		});
 	}());	
 }
-Template.nav.events = {
-	"click .toggleLang": function(ev) {
-		if(Router.getLanguage() == "fr")
-			Router.setLanguage("en")
-		else
-			Router.setLanguage("fr")
+/*Template.nav.events = {
+	"click .menu": function() {
+		$('nav.topnav .toggle').click();
+		
 	}
-}
+}*/

@@ -45,6 +45,7 @@
 
 	}
 	section.wedo {
+		$mainColor: #F06546;
 		background-color: white;
 		.row.main {
 			@include sectionSize();
