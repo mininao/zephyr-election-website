@@ -20,8 +20,25 @@
 	"nav_team":"The team",
 	"nav_register":"Register to activities",
 	"nav_home":"Home",
-	"nav_toggleLang":"Français",
+	"nav_toggleLang":"Français",	
+	
+	//FOOTER
+	"footer_logout":"Logout",
+	"footer_logout":"Made with <i class=\"ion-heart\"></i> by Zéphyr's web Team",		
 	
 	//REGISTER
-	"register_pagetitle":"Register to our activities"
+	"register_pagetitle":"Register to our activities",
+	"register_tagline":"Between one-man show, laser game and patatata, a lot of fun",
+	"register_login":"Connect with google",
+	"register_mail":"Use your @edu.esiee.fr e-mail",
+	"register_welcomeName":"Hi %s !",
+	"register_activity":"Activity",
+	"register_name":"Name",
+	"register_comment":"A comment?",
+	"register_comment_placeholder":"I want to be with Harold",
+	"register_validate": "Register!",
+
+	//WEEK
+	"week_pagetitle":"Electoral week",
+	"week_tagline":"Discover our activities!"
 }

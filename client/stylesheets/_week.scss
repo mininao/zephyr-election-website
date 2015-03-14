@@ -1,0 +1,28 @@
+.week.page {
+	$bgColor: #364347;
+	$mainColor: #364347;
+	$textColor: white;
+	min-height: 110%;
+	background-color: $bgColor;
+	section.title {
+		@include cover('/img/home3.jpg');
+		background-attachment: fixed;
+		.row.main {
+			@include sectionSize();
+			
+			h1 {
+				color: $mainColor;
+				@include sectionTitle();
+			}	
+			p.tagline {
+				text-align: center;
+				color: $mainColor;
+				font-size: 1.5rem;
+			}			
+		}
+
+	}
+	section.week {
+		
+	}
+}

@@ -1,6 +1,6 @@
 footer.main {
 	$mainColor: #F06546;
-	$bgColor: #364347;
+	$bgColor: #2B3639;
 	background: $bgColor;
 	.row {
 		@include sectionSize();
@@ -11,30 +11,19 @@ footer.main {
 			align-items: center;
 			justify-content: center;
 			flex-direction: column;
-/*			svg.logo {
-				width: 20rem;
-				margin-right: auto;
-				margin-left: auto;
-				display: block;
-			}*/
 			.svgwrap {
-				width: 50%;
+				width: 35%;
 				height: auto;
 				margin: 0 auto;
 				svg {
 					max-height:100%;
 				}
-			}
-			h1.motto {
-				margin-top: 5rem;
-				margin-bottom: 5rem;
-				text-align: center;
-				font-size: 5rem;
-
-				color: $mainColor;
-				line-height: 1;
-				letter-spacing: .3rem;
-			}			
+			}		
 		}		
+			p {
+				margin-top: 4rem;
+				text-align: center;
+				
+			}		
 	}
 }

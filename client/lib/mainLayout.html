@@ -1,7 +1,14 @@
  <template name="mainLayout">
-	 {{> nav}}
-	 {{> yield}}
-	 {{initFoundation}}
-	 {{> smoothScroll}}
+	<!--{{>topnav}}-->
+	<div class="navWrap">
+	<div class="navOverlay"></div>
+	{{>nav}}
+	{{> yield}}
+	{{> footer}}
+	</div>
+
+	
+	{{initFoundation}}
+	{{> smoothScroll}}
 </template>
 

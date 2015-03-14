@@ -8,7 +8,7 @@ nav.main {
 	height: $navHeight;
 	opacity: .5;
 	position: fixed;
-	top: -$navHeight;
+	top: 0;
 	z-index: 100;
 	.row.muted {
 		$mutedColor:#b2c6cd;

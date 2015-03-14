@@ -56,6 +56,14 @@ Router.route('/register', function () {
   name: 'register'
 });
 
+Router.route('/week', function () {
+  this.render('week');
+  
+}, {
+  name: 'week'
+});
+
+
 Router.route('/team', function () {
   this.render('team');
   

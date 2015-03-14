@@ -22,6 +22,23 @@
 	"nav_home":"Accueil",
 	"nav_toggleLang":"English",	
 	
+	//FOOTER
+	"footer_logout":"Déconnexion",
+	"footer_credit":"Réalisé avec <i class=\"ion-heart\"></i> par la Team web",	
+	
 	//REGISTER
-	"register_pagetitle":"Inscription aux activites de la semaine"	
+	"register_pagetitle":"Inscription aux activites de la semaine",
+	"register_tagline":"Entre humoriste, laser game et patatata, l'embarras du choix",
+	"register_login":"Connexion avec google",
+	"register_mail":"Utilise ton e-mail @edu.esiee.fr",
+	"register_welcomeName":"Salut %s !",
+	"register_activity":"Activité",
+	"register_name":"Nom",
+	"register_comment":"Un commentaire ?",
+	"register_comment_placeholder":"Je veux être avec Jean-Michel",
+	"register_validate": "Reserver !",
+	
+	//WEEK
+	"week_pagetitle":"Semaine d'elections",
+	"week_tagline":"Découvrez nos activités !"
 }

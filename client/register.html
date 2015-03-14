@@ -1,10 +1,56 @@
 <template name="register">
 	<div class="register page">
+		<section class="title">
+			<div class="row main">
+				<div class="navspacer"></div>
+				<h1>{{_ "register_pagetitle"}}</h1>
+				<p class="tagline">{{_ "register_tagline"}}</p>				
+			</div>
+		</section>
 		<section class="register">
-		<div class="navspacer"></div>
-			<div class="row">
-			<h1>{{_ "register_pagetitle"}}</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime officia neque molestiae enim ipsum unde nam, sed velit ab, odit similique a modi provident facilis, non culpa doloremque assumenda veniam.</p>
+			<div class="row main">
+				{{#if currentUser}}
+					<h1>{{_ "register_welcomeName" currentUser.services.google.given_name}}</h1>
+					<div class="row input name">
+						<div class="small-3 columns">
+							<label for="right-label" class="right inline">{{_ "register_name"}}</label>
+						</div>
+						<div class="small-9 columns">
+							<p class="inline">{{currentUser.services.google.name}} <a href="#" class="logout"> <i class="ion-log-out"></i></a></p>
+						</div>
+					</div>
+					<div class="row input activity">
+						<div class="small-3 columns">
+							<label for="right-label" class="right inline">{{_ "register_activity"}}</label>
+						</div>
+						<div class="small-9 columns">
+							<p class="inline">{{activity}} ({{date}})<a href="{{pathFor route='week'}}"> <i class="ion-edit"></i></a></p>
+						</div>
+					</div>
+					<div class="row input">
+						<div class="small-3 columns">
+							<label for="right-label" class="right inline">{{_ "register_comment"}}</label>
+						</div>
+						<div class="small-9 medium-7 end columns">
+							<input type="text" id="right-label" placeholder="{{_ 'register_comment_placeholder'}}">
+						</div>
+					</div>
+					<div class="row input validate">
+							<div class="small-9 small-offset-3 medium-7 end columns">
+								{{_ "register_validate"}}
+							</div>
+					</div>					
+				{{else}}
+					<a href="#" class="login">
+						<div class="row loginButton">
+							<div class="small-11 small-centered medium-6 medium-centered large-5 large-centered columns">
+								{{_ "register_login"}}
+							</div>
+						</div>
+					</a>
+					<p class="email-warn">{{_ "register_mail"}}</p>			
+				{{/if}}
+			
 			</div>
 		</section>
 	</div>
