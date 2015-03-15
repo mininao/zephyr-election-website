@@ -1,0 +1,1 @@
+Registrations = new Mongo.Collection("Registrations");

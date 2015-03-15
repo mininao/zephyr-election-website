@@ -13,3 +13,10 @@ Meteor.publish("userData", function () {
 	} else 
 		this.ready();
 });
+
+/********** DELETE THIS \/ ***************/
+Meteor.publish("xx",function(){
+
+return Registrations.find();
+});
+/********** DELETE THIS /\ ***************/

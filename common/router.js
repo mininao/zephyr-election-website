@@ -13,7 +13,18 @@ Router.configure({
           TAPi18n.setLanguage(lang);
         },
         languages: ['fr', 'en'],
-		defaultLanguage: 'fr'
+		defaultLanguage: 'fr',
+        exclude: {
+          // Paths beginning with "/admin"
+         	admin_paths: '^\/admin',
+			admin2: '/admin'
+		},
+		server: {
+			exclude: {
+				admin_paths: '^\/admin',
+				admin2: '/admin'
+			}
+		}
 
     }	
 });
