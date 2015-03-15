@@ -2,7 +2,7 @@
 	// HOME
 	"home_motto_title": "We want esiee to be <br> more <span class=\"small-screen-br\"><br></span>",
 	"home_motto_adjectives": ["welcoming.", "fun.", "collaborative.", "open.", "friendly."],
- 	"home_motto_paragraph":"Even though using lorem ipsum often arouses curiosity due to its resemblance to classical Latin, it is not intended to have meaning. Where text is visible in a document, people tend to focus on the textual content rather than upon overall presentation, so publishers use lorem ipsum when displaying a typeface or design in order to direct the focus to presentation. Lorem ipsum also approximates a typical distribution of spaces in English.",
+ 	"home_motto_paragraph":"During this week, the Zéphyr team will do his best to make every day unforgetable. On this website, you'll be able to check out our program, register to the activities which need reservation, and see what the members of our team look like.",
 	"home_motto_button":"Read our program",
 	"home_se_title":"Electoral week",
 	"home_se_presentation":"Presentation video",
@@ -31,7 +31,7 @@
 	
 	//REGISTER
 	"register_pagetitle":"Register to our activities",
-	"register_tagline":"Between one-man show, laser game and patatata, a lot of fun",
+	"register_tagline":"Have fun with our laser tag and comedy show evenings",
 	"register_login":"Connect with google",
 	"register_mail":"Use your @edu.esiee.fr e-mail",
 	"register_welcomeName":"Hi %s !",

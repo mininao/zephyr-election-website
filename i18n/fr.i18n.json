@@ -31,7 +31,7 @@
 	
 	//REGISTER
 	"register_pagetitle":"Inscription aux activites de la semaine",
-	"register_tagline":"Entre humoriste, laser game et patatata, l'embarras du choix",
+	"register_tagline":"Entre humoriste et laser game l'embarras du choix",
 	"register_login":"Connexion avec google",
 	"register_mail":"Utilise ton e-mail @edu.esiee.fr",
 	"register_welcomeName":"Salut %s !",

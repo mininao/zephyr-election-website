@@ -18,7 +18,7 @@ Template.register.events({
 		if(Session.get("activity") == "breakfast") {
 			residence = $("input#residence").val();
 			room = $("input#room").val();
-			alert(Meteor.userId())
+			//alert(Meteor.userId())
 		}
 		//swal("coucou")
 		Meteor.call("register", Meteor.userId(), activity, date, comment, residence, room, function (error, result) {
