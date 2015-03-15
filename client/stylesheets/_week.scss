@@ -1,6 +1,7 @@
 .week.page {
 	$bgColor: #364347;
-	$mainColor: #364347;
+	$mainColor: #fad46b;
+	$mainDark: #f3bc65;
 	$textColor: white;
 	min-height: 110%;
 	background-color: $bgColor;
@@ -11,20 +12,65 @@
 			@include sectionSize();
 			
 			h1 {
-				color: $mainColor;
+				color:$bgColor;
 				@include sectionTitle();
 			}	
 			p.tagline {
 				text-align: center;
-				color: $mainColor;
+				color: $bgColor;
 				font-size: 1.5rem;
 			}			
 		}
 
 	}
-	section.week {
+	div.week {
 		h1 {
 			color: white;
+		}
+	}
+	
+	.barwrap {
+		position: absolute;
+		top: 0;
+		right: 0px;
+		left: 0px;
+		height: 100%;
+		width: 100%;
+		.columns {
+			.bar {
+				background-color: #2B3639;
+				height: 100%;
+				width: 1.5rem;
+			}
+			height: 100%;
+			width: 1.5rem;
+		}	
+	}	
+	section.day {
+		position: relative;
+		.tlwrap {
+			.dotwrap {
+				.dot {
+					width: 2rem;
+					height: 2rem;
+					background-color: $mainDark;
+					border-radius: 50%;
+					margin-left: -0.25rem;
+					margin-top: 3rem;
+				}
+			}
+			h2 {
+				color: $mainColor;
+			}
+			h1 {
+				text-align: center;
+				color: $mainColor;
+				margin-top: 2rem;
+				text-transform: uppercase;
+			}
+			p {
+				color: white;
+			}
 		}
 	}
 }

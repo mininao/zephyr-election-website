@@ -20,6 +20,7 @@ Template.home.rendered = function () {
 	});	
 	//var typer;
 	var startTyping = function() {
+		
 		typer = $('em.change').typed({
 			strings: TAPi18n.__("home_motto_adjectives", {returnObjectTrees: true}),
 			typeSpeed: 70,

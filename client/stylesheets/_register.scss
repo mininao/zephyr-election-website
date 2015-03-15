@@ -43,6 +43,10 @@
 				label {
 					color: #e1eef3;
 					font-size: 1.5rem;
+					@media #{$small-only} {
+						text-align: center;
+						text-decoration: underline;
+					}					
 				}
 				input {
 					font-size: 1.5rem;
@@ -74,6 +78,10 @@
 					padding: 0.5625rem 0px;
 					color: $textColor;
 					font-size: 1.5rem;
+					@media #{$small-only} {
+						text-align: center;
+						
+					}						
 					a {
 						margin-left: .5rem;
 						color: #b2c6cd;
@@ -86,15 +94,21 @@
 			}
 			.input.validate {
 				margin-top: 1rem;
-				margin-left: 0.9375rem;
-				margin-right: 0.9375rem;
-				.columns {
+				@media #{$medium-up} {
+					margin-left: 0.9375rem;
+					margin-right: 0.9375rem;
+				}
+				.columns.btn {
 					@include sectionButton(white);
 					padding: 1rem;
 					cursor: pointer;
 				}
 			}
 		}
-
+		p.bkwarn {
+				text-align: center;
+				color: #b2c6cd;
+				margin-top: .7rem;
+		}
 	}
 }

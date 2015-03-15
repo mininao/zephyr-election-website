@@ -1,9 +1,10 @@
 Template.topnav.events = {
 	"click .toggleLang": function(ev) {
 		if(Router.getLanguage() == "fr")
-			Router.setLanguage("en")
+			Router.setLanguage("en");
 		else
-			Router.setLanguage("fr")
+			Router.setLanguage("fr");
+		langDep.changed();
 	},
 	"click .toggle": function(){
 		var nav = $('nav.topnav');
@@ -25,7 +26,7 @@ Template.topnav.events = {
 		
 	}
 }
-
+var langDep = new Tracker.Dependency;
 Template.topnav.rendered = function() {
 	var nav = $('nav.topnav');
 	var height = nav.height();

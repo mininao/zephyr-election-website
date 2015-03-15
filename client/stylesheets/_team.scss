@@ -1,0 +1,35 @@
+.team.page {
+	section {
+		padding: 7.8125rem 2rem;
+		h1 {
+			text-transform: uppercase;
+			text-align: center;
+			font-size: 4rem;
+			margin-bottom: 1rem;
+		}
+
+	}
+	section.bureau, section.log, section.event {
+		background: #364347;
+		h1 {
+			color: white;
+		}
+		p {
+			font-size: 1.5rem;
+			text-align: justify;
+			color: white;
+		}
+	}
+	
+	section.com, section.ve {
+		background: white;
+		h1 {
+			color: #a88cd5;
+		}
+		p {
+			font-size: 1.5rem;
+			text-align: justify;
+			color: #9175bd;
+		}
+	}	
+}

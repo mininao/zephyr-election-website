@@ -5,13 +5,16 @@
 	"home_motto_paragraph": "Durant cette semaine, l’équipe de Zéphyr va tout faire pour rendre chacune de tes journées inoubliables. Sur ce site,  tu peux consulter notre programme, accéder aux différentes inscriptions pour les activités qui nécessitent une réservation mais aussi voir à quoi ressemblent les membres qui se donnent chaque jour pour toi. ",
 	"home_motto_button": "Lire notre programme",
 	"home_se_title": "Semaine d'election",
-	"home_se_presentation": "Video de presentation",
-	"home_se_presentation_action": "Regarder",
-	"home_se_blabla": "Blabla de campagne",
-	"home_se_blabla_action": "Lire",
-	"home_se_activities": "Activites de la semaine",
-	"home_se_activities_action": "Découvrir",
-	"home_se_register": "Inscription aux activites",
+	"home_se_presentation": "Petit déjeuner",
+	"home_se_presentation_action": "Réserver",
+	"home_se_blabla": "Laser game",
+	"home_se_blabla_action": "Réserver",
+	"home_se_activities": "Show humoristique",
+	"home_se_activities_action": "Réserver",
+	"home_se_register":"Reservez votre petit dejeuner",
+	"home_se_register_show":"Book tuesday evening laser tag",
+	"home_se_register_laser":"Book wednesday evening comedy show",	
+	"home_se_teaser":"Découvrez les activités de la semaine après l'amphi de présentation de lundi ! <br> En attendant, réservez vos places pour les soirées !",
 	"home_us_title": "Nous sommes zephyr",
 	"home_us_button": "Decouvrez l'equipe !",
 	
@@ -45,8 +48,21 @@
 	"register_room_placeholder":"A160",
 	"register_breakfast":"Petit déjeuner",
 	"register_breakfast_placeholder":"Café ou Chocolat + Croissant ou Chocolatine ?",
+	"register_breakfast_warning":"Vous réservez pour lundi matin",
 	
 	//WEEK
 	"week_pagetitle":"Semaine d'election",
-	"week_tagline":"Découvrez nos activités !"
+	"week_tagline":"Découvrez nos activités !",
+	
+	//TEAM
+	"team_bureau_title":"Bureau",
+	"team_bureau_text":"Son but : prendre des décisions importantes et gérer une équipe motivée pour monter le meilleur projet associatif que toi esieen pourrait apprécier. Comme chacun de nos membres, nous représentons tous les élèves de l’ESIEE.",
+	"team_ve_text":"Besoin d’une aide quelconque, d’annales de partiels, de cash? Les teams Job et annales s’en occupent.<br>L’ESIEE c’est la France, mais pas que ! La team internationale est également de la partie pour faire passer une année folle à tous les étudiants venant du monde entier.<br>90% de la vie associative de notre école sont les clubs et ce sont eux qui vous font vivre tes plus beaux moments. Notre team clubs est donc là pour veiller à leur bon fonctionnement !",
+	"team_ve_title":"Vie etudiante",
+	"team_com_title":"Communication",
+	"team_log_title":"Log'",
+	"team_event_title":"Event",
+	"team_com_text":"Une soirée, un évènement, du nouveau dans votre futur BDE? Les teams web, information, design et rédaction se chargent de te le faire savoir.",
+	"team_event_text":"Notre BDE est avant tout là pour ton amusement et ta satisfaction! Pour cela, la team anim t’organisera des tonnes d’évènements durant toute l’année.<br>Envie de glisse ou de détente ? La team voyage te peaufinera avec soin de jolies petites excursions!<br>Tous ses évènements ne peuvent être que mieux avec la présence de sponsors. La team sponsors est donc là pour te trouver les meilleurs partenariats.",
+	"team_log_text":"L’équipe du pôle logistique se charge de la bonne gestion de nos stocks pour que tu ne manques jamais de rien."	
 }

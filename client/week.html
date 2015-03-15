@@ -7,18 +7,85 @@
 				<p class="tagline">{{_ "week_tagline"}}</p>			
 			</div>
 		</section>
-		<section class="week">
+		<div class="week">
 			{{> timeline}}
-		</section>
+		</div>
 	</div>
 </template>
 
 
 <template name="timeline">
-<h1>Liens de test résa :</h1>
-<a href="/register/show">Résa Humoriste</a>
-<a href="/register/laser">Résa Lasergame</a>
-<div class="row timeline">
-	<div class="small-12 medium-10 medium-centered large-8 large-centered columns"></div>
-</div>
+<!-- LUNDIIIIIIIIIIIIIIi -->
+	<section class="day monday">
+		<div class="row barwrap">
+			<div class="small-1 medium-1 end columns">
+				<div class="bar"></div>
+			</div>
+			<div class="small-9 columns"></div>
+		</div>
+		<div class="row tlwrap">
+			<div class="small-1 medium-1 end columns">
+			</div>		
+			<div class="small-11 medium-10 columns">
+				<h1>{{_ "week_monday"}}</h1>
+			</div>
+		</div>			
+		<div class="row tlwrap">
+			<div class="small-1 medium-1 end columns dotwrap">
+				<div class="dot"></div>
+			</div>		
+			<div class="small-11 medium-10 columns">
+				<h2>{{_ "week_breakfast"}}</h2>
+				<p>{{_ "week_breakfast_t"}}</p>
+				<p class="resa"><a href="/register/breakfast">{{_ "week_book"}}</a></p>
+			</div>
+		</div>			
+		<div class="row tlwrap">
+			<div class="small-1 medium-1 end columns dotwrap">
+				<div class="dot"></div>
+			</div>		
+			<div class="small-11 medium-10 columns">
+				<h2>{{_ "week_amphi"}}</h2>
+				<p>{{_ "week_amphi_t"}}</p>
+				<p class="resa"><a href="/register/breakfast">{{_ "week_book"}}</a></p>
+			</div>
+		</div>
+	</section>
+
+<!-- MARDIIIIIIIIIIIIIIIi -->
+	<section class="day tuesday">
+		<div class="row barwrap">
+			<div class="small-1 medium-1 end columns">
+				<div class="bar"></div>
+			</div>
+			<div class="small-9 columns"></div>
+		</div>
+		<div class="row tlwrap">
+			<div class="small-1 medium-1 end columns">
+			</div>		
+			<div class="small-11 medium-10 columns">
+				<h1>{{_ "week_tuesday"}}</h1>
+			</div>
+		</div>			
+		<div class="row tlwrap">
+			<div class="small-1 medium-1 end columns dotwrap">
+				<div class="dot"></div>
+			</div>		
+			<div class="small-11 medium-10 columns">
+				<h2>{{_ "week_breakfast"}}</h2>
+				<p>{{_ "week_breakfast_t"}}</p>
+				<p class="resa"><a href="/register/breakfast">{{_ "week_book"}}</a></p>
+			</div>
+		</div>			
+		<div class="row tlwrap">
+			<div class="small-1 medium-1 end columns dotwrap">
+				<div class="dot"></div>
+			</div>		
+			<div class="small-11 medium-10 columns">
+				<h2>{{_ "week_amphi"}}</h2>
+				<p>{{_ "week_amphi_t"}}</p>
+				<p class="resa"><a href="/register/breakfast">{{_ "week_book"}}</a></p>
+			</div>
+		</div>
+	</section>
 </template>

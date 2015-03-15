@@ -12,52 +12,57 @@
 				{{#if currentUser}}
 					<h1>{{_ "register_welcomeName" currentUser.services.google.given_name}}</h1>
 					<div class="row input name">
-						<div class="small-3 columns">
+						<div class="small-12 medium-3 columns">
 							<label for="right-label" class="right inline">{{_ "register_name"}}</label>
 						</div>
-						<div class="small-9 columns">
+						<div class="small-12 medium-9 columns">
 							<p class="inline">{{currentUser.services.google.name}} <a href="#" class="logout"> <i class="ion-log-out"></i></a></p>
 						</div>
 					</div>
 					<div class="row input activity">
-						<div class="small-3 columns">
+						<div class="small-12 medium-3 columns">
 							<label for="right-label" class="right inline">{{_ "register_activity"}}</label>
 						</div>
-						<div class="small-9 columns">
-							<p class="inline">{{activity}}<a href="{{pathFor route='week'}}"> <i class="ion-edit"></i></a></p>
+						<div class="small-12 medium-9 columns">
+							<p class="inline">{{activity}}<a href="{{pathFor route='home'}}"> <i class="ion-edit"></i></a></p>
 						</div>
 					</div>
 					<div class="row input">
-						<div class="small-3 columns">
+						<div class="small-12 medium-3 columns">
 							<label for="right-label" class="right inline">{{_ "register_comment"}}</label>
 						</div>
-						<div class="small-9 medium-7 end columns">
+						<div class="small-12 medium-9 end columns">
 							<input type="text" id="comment" placeholder="{{#if isBreakfast}}{{_ 'register_breakfast_placeholder'}}{{else}}{{_ 'register_comment_placeholder'}}{{/if}}">
 						</div>
 					</div>
 				{{#if isBreakfast}}
 					<div class="row input">
-						<div class="small-3 columns">
+						<div class="small-12 medium-3 columns">
 							<label for="right-label" class="right inline">{{_ "register_residence"}}</label>
 						</div>
-						<div class="small-9 medium-7 end columns">
+						<div class="small-12 medium-9 end columns">
 							<input type="text" id="comment" placeholder="{{_ 'register_residence_placeholder'}}">
 						</div>
 					</div>					
 					<div class="row input">
-						<div class="small-3 columns">
+						<div class="small-12 medium-3 columns">
 							<label for="right-label" class="right inline">{{_ "register_room"}}</label>
 						</div>
-						<div class="small-9 medium-7 end columns">
+						<div class="small-12 medium-9 end columns">
 							<input type="text" id="comment" placeholder="{{_ 'register_room_placeholder'}}">
 						</div>
 					</div>
 				{{/if}}
 					<div class="row input validate">
-							<div class="small-9 small-offset-3 medium-7 end columns">
+							<div class="small-12 medium-offset-3 medium-7 end columns btn">
 								{{_ "register_validate"}}
 							</div>
+					{{#if isBreakfast}}
+					<div class="small-12 medium-offset-3 medium-7 end columns">
+						<p class="bkwarn">{{_ "register_breakfast_warning"}}</p>
 					</div>					
+					{{/if}}							
+					</div>
 				{{else}}
 					<a href="#" class="login">
 						<div class="row loginButton">
