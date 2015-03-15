@@ -24,7 +24,7 @@
 	
 	//FOOTER
 	"footer_logout":"Logout",
-	"footer_logout":"Made with <i class=\"ion-heart\"></i> by Zéphyr's web Team",		
+	"footer_credit":"Made with <i class=\"ion-heart\"></i> by Zéphyr's web Team",		
 	
 	//REGISTER
 	"register_pagetitle":"Register to our activities",
@@ -39,7 +39,12 @@
 	"register_validate": "Register!",
 	"register_show": "Stand-up show",
 	"register_laser": "Laser Tag",
-	"register_contest": "Flanby (custard) eating contest",
+	"register_residence": "Apartment building",
+	"register_residence_placeholder":"Arago, Ampère or JDS?",
+	"register_room": "Room number",
+	"register_room_placeholder":"A160",
+	"register_breakfast":"Breakfast",
+	"register_breakfast_placeholder":"Coffee or Cocoa + Plain or Chocolate croissant ?",
 
 	//WEEK
 	"week_pagetitle":"Electoral week",

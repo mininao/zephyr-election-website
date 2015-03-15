@@ -1,10 +1,10 @@
 {
 	// HOME
 	"home_motto_title": "Nous voulons faire de l\u0027esiee un endroit plus  <span class=\"small-screen-br\"><br></span>",
-	"home_motto_adjectives": ["collaboratif.", "convivial.", "ouvert.", "acceuillant.","solidaire."],
+	"home_motto_adjectives": ["collaboratif.", "convivial.", "ouvert.", "accueillant.","solidaire."],
 	"home_motto_paragraph": "Durant cette semaine, l’équipe de Zéphyr va tout faire pour rendre chacune de tes journées inoubliables. Sur ce site,  tu peux consulter notre programme, accéder aux différentes inscriptions pour les activités qui nécessitent une réservation mais aussi voir à quoi ressemblent les membres qui se donnent chaque jour pour toi. ",
 	"home_motto_button": "Lire notre programme",
-	"home_se_title": "Semaine d'elections",
+	"home_se_title": "Semaine d'election",
 	"home_se_presentation": "Video de presentation",
 	"home_se_presentation_action": "Regarder",
 	"home_se_blabla": "Blabla de campagne",
@@ -39,9 +39,14 @@
 	"register_validate": "Reserver !",
 	"register_show": "Humoriste",
 	"register_laser": "Laser Game",
-	"register_contest": "Councours de gobage de flanbys",
+	"register_residence": "Résidence",
+	"register_residence_placeholder":"Arago, Ampère ou JDS ?",
+	"register_room": "Numéro d'appartement",
+	"register_room_placeholder":"A160",
+	"register_breakfast":"Petit déjeuner",
+	"register_breakfast_placeholder":"Café ou Chocolat + Croissant ou Chocolatine ?",
 	
 	//WEEK
-	"week_pagetitle":"Semaine d'elections",
+	"week_pagetitle":"Semaine d'election",
 	"week_tagline":"Découvrez nos activités !"
 }

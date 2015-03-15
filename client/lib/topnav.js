@@ -29,7 +29,7 @@ Template.topnav.events = {
 Template.topnav.rendered = function() {
 	var nav = $('nav.topnav');
 	var height = nav.height();
-	nav.css('margin-top',-height);
+	nav.css('margin-top',-height*5);
 	
 
 	;(function () {

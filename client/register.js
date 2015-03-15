@@ -46,7 +46,7 @@ Template.register.rendered = function () {
 				Session.set("activity", "laser");
 				break;
 			case 'breakfast':
-				Session.set("activity_text", TAPi18n.__("register_contest"));
+				Session.set("activity_text", TAPi18n.__("register_breakfast"));
 				Session.set("activity", "breakfast");
 				break;			
 			default:
@@ -64,5 +64,8 @@ Template.register.helpers({
 	},
 	date: function() {
 		return Session.get('date');
+	},
+	isBreakfast: function() {
+		return Session.get("activity") == "breakfast";
 	}
 });
