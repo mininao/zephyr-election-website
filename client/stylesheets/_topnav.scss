@@ -31,6 +31,8 @@ nav.topnav {
 			font-family: $body-font-family;
 			font-size: 2rem;
 			padding: 3rem 2rem;
+			@media #{$small-only} {
+				padding: 1.5rem;			}
 			text-transform: uppercase;
 			font-weight: 300;
 			
@@ -40,5 +42,12 @@ nav.topnav {
 			.team {color: #9175bd;}
 			.register {color: #f3bc65;}
 			.lang {color: #b2c6cd;}		
+	}
+	.close {
+		position: absolute;
+		top: 1rem;
+		right: 1rem;
+		color: #b2c6cd;
+		cursor: pointer;
 	}
 }

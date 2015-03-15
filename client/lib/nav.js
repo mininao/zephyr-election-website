@@ -22,7 +22,7 @@ Template.nav.rendered = function() {
 	}
 	$('nav.main .menu').on("click", function(){
 		$('nav.topnav .toggle').click();
-		hideNav(true);
+		//hideNav(true);
 	});
 	
 	

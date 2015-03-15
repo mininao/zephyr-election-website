@@ -1,7 +1,7 @@
 <template name="topnav">
 	<nav class="topnav" data-hidden="true">
 		<div class="nomarginfusion"></div>
-		<div class="hide toggle"></div>
+		<!--<div class="hide toggle"></div>-->
 		<div class="menu">
 			<div class="item home">
 				<a href="{{pathFor route='home'}}">{{_ "nav_home"}}</a>
@@ -13,12 +13,13 @@
 				<a href="{{pathFor route='team'}}">{{_ "nav_team"}}</a>
 			</div>
 			<div class="item register">
-				<a href="{{pathFor route='register'}}">{{_ "nav_register"}}</a>
+				<a href="{{pathFor route='week'}}">{{_ "nav_week"}}</a>
 			</div>
 			<div class="item lang">
 				<a href="#" class="toggleLang">{{_ "nav_toggleLang"}}</a>
 			</div>
 			
 		</div>
+		<div class="close toggle"><i class="ion-close"></i></div>
 	</nav>
 </template>

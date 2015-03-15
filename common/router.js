@@ -49,8 +49,10 @@ Router.route('/program', function () {
   name: 'program'
 });
 
-Router.route('/register', function () {
-  this.render('register');
+Router.route('/register/:activity', function () {
+  this.render('register', {
+    data: {activity:this.params.activity}
+  });
   
 }, {
   name: 'register'

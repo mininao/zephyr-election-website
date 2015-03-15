@@ -7,12 +7,17 @@ Template.topnav.events = {
 	},
 	"click .toggle": function(){
 		var nav = $('nav.topnav');
+		var height = nav.height();
 		if(nav.attr("data-hidden") == "false") {
-			var height = nav.height();
+			
 			var tween = new TweenLite(nav,0.5,{marginTop:-height});
+			tween.eventCallback("onComplete", function() {
+				nav.css("margin-top",-height*5);
+			});
 			nav.attr("data-hidden","true")
 		} else {
-			var tween = new TweenLite(nav,0.5,{marginTop:0});
+			nav.css("margin-top",-height);
+			var tween = new TweenLite.to(nav,0.5,{marginTop:0});
 			var items = $('nav.topnav .item');
 			var itemTween = TweenMax.staggerFrom(items, 0.6, {opacity:0, marginTop:"-80px"},0.25);
 			nav.attr("data-hidden","false");

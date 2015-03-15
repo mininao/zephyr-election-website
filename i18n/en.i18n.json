@@ -1,7 +1,7 @@
 {
 	// HOME
 	"home_motto_title": "We want esiee to be <br> more <span class=\"small-screen-br\"><br></span>",
-	"home_motto_adjectives": ["collaborative.", "fun.", "agreable.", "free."],
+	"home_motto_adjectives": ["welcoming.", "fun.", "collaborative.", "open.", "friendly."],
  	"home_motto_paragraph":"Even though using lorem ipsum often arouses curiosity due to its resemblance to classical Latin, it is not intended to have meaning. Where text is visible in a document, people tend to focus on the textual content rather than upon overall presentation, so publishers use lorem ipsum when displaying a typeface or design in order to direct the focus to presentation. Lorem ipsum also approximates a typical distribution of spaces in English.",
 	"home_motto_button":"Read our program",
 	"home_se_title":"Electoral week",
@@ -18,7 +18,7 @@
 	//NAVIGATION
 	"nav_program":"Our program",
 	"nav_team":"The team",
-	"nav_register":"Register to activities",
+	"nav_week":"The electoral week",
 	"nav_home":"Home",
 	"nav_toggleLang":"Français",	
 	
@@ -37,6 +37,9 @@
 	"register_comment":"A comment?",
 	"register_comment_placeholder":"I want to be with Harold",
 	"register_validate": "Register!",
+	"register_show": "Stand-up show",
+	"register_laser": "Laser Tag",
+	"register_contest": "Flanby (custard) eating contest",
 
 	//WEEK
 	"week_pagetitle":"Electoral week",

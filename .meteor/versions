@@ -1,6 +1,7 @@
 accounts-base@1.1.3
 accounts-google@1.0.3
 accounts-oauth@1.1.3
+accounts-password@1.0.6
 accounts-ui@1.1.4
 accounts-ui-unstyled@1.1.6
 aldeed:simple-schema@1.3.0
@@ -15,14 +16,17 @@ callback-hook@1.0.2
 cfs:http-methods@0.0.27
 check@1.0.4
 coffeescript@1.0.5
+dburles:mongo-collection-instances@0.2.6
 ddp@1.0.14
 deps@1.0.6
 ejson@1.0.5
+email@1.0.5
 fastclick@1.0.2
 follower-livedata@1.0.3
 fourseven:scss@1.0.0
 geojson-utils@1.0.2
 google@1.1.4
+houston:admin@2.0.3
 html-tools@1.0.3
 htmljs@1.0.3
 http@1.0.10
@@ -38,6 +42,7 @@ iron:router@1.0.7
 iron:url@1.0.7
 jquery@1.11.3
 json@1.0.2
+kevohagan:sweetalert@0.4.2
 launch-screen@1.0.1
 less@1.0.12
 livedata@1.0.12
@@ -51,6 +56,7 @@ minifiers@1.1.3
 minimongo@1.0.6
 mobile-status-bar@1.0.2
 mongo@1.0.11
+npm-bcrypt@0.7.7
 oauth@1.1.3
 oauth2@1.1.2
 observe-sequence@1.0.4
@@ -63,10 +69,13 @@ retry@1.0.2
 routepolicy@1.0.4
 service-configuration@1.0.3
 session@1.0.5
+sha@1.0.2
 spacebars@1.0.5
 spacebars-compiler@1.0.4
+srp@1.0.2
 tap:i18n@1.4.1
 templating@1.0.11
+tmeasday:paginated-subscription@0.2.4
 tmeasday:publish-counts@0.3.4
 tracker@1.0.5
 ui@1.0.5
