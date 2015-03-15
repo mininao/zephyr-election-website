@@ -15,18 +15,19 @@ Template.register.events({
 		var date = Session.get("date");
 		var comment = $("input#comment").val();
 		var residence,room;
-		if(activity == "breakfast") {
-			residence = $("input.residence").val();
-			room = $("input.room").val();
+		if(Session.get("activity") == "breakfast") {
+			residence = $("input#residence").val();
+			room = $("input#room").val();
+			alert(Meteor.userId())
 		}
 		//swal("coucou")
 		Meteor.call("register", Meteor.userId(), activity, date, comment, residence, room, function (error, result) {
-		if (!_.isUndefined(error)) {
-			sweetAlert("Nom d'une pipe !", error.reason, "error");
-		}
-		if (!_.isUndefined(result) && result.valid) {
-			sweetAlert("C'est tipar.", "Réservation effectuée", "success");
-		}
+			if (!_.isUndefined(error)) {
+				sweetAlert("Nom d'une pipe !", error.reason, "error");
+			}
+			if (!_.isUndefined(result) && result.valid) {
+				sweetAlert("C'est tipar.", "Réservation effectuée", "success");
+			}
 		});
 		
 	}

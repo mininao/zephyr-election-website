@@ -9,6 +9,7 @@ var isAdmin = function (userId) {
 
 Meteor.methods({
 	register: function (userId, activity, date, comment, residence, room) {
+		if(this.isSimulation) return;
 		var result = {valid:false};
 		if (!userId)
 			throw new Meteor.Error("logged-out", "Veuillez vous connecter");
@@ -22,7 +23,7 @@ Meteor.methods({
 			if(Registrations.find({userId:userId,activity:activity}).fetch().length > 0)
 				throw new Meteor.Error("already-registered", "Vous avez déjà réservé pour cet évènement");
 		} else {
-			if(!residence || !room) {
+			if(_.isNull(residence) || _.isNull(room)) {
 				throw new Meteor.Error("location-missing", "Vous renseigner votre résidence et votre numéro d'appart");
 			}			
 			if(!comment) {
@@ -36,7 +37,7 @@ Meteor.methods({
 				userId:userId,
 				name:Meteor.users.findOne(userId).services.google.name,
 				activity:activity,
-				date:date,
+				date:new Date(),
 				comment:comment,
 				residence:residence,
 				room:room
