@@ -24,6 +24,9 @@ Template.topnav.events = {
 			nav.attr("data-hidden","false");
 		}
 		
+	},
+	"click .item a": function() {
+		$('nav.topnav .toggle').click();
 	}
 }
 var langDep = new Tracker.Dependency;

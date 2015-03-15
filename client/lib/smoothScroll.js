@@ -1,5 +1,5 @@
 Template.smoothScroll.rendered = function() {
-var isFF = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+/*var isFF = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
 	var is_safari = navigator.userAgent.indexOf("Safari") > -1;
 	if((! isFF) && (!is_safari)) {
 		// Load jquery mousewheel Copyright (c) 2013 Brandon Aaron (http://brandon.aaron.sh)
@@ -14,7 +14,7 @@ var isFF = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
 			speed: 400,
 			ease: 'swing'
 		});
-	}
+	}*/
 }	
 
 
