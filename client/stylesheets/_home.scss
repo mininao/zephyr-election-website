@@ -13,8 +13,8 @@
 			justify-content: center;
 			video {
 				height: 120%;
-
 			}
+			@include cover('/img/bgfallback.jpg');
 		}
 
 		div.top {
@@ -29,13 +29,16 @@
 				margin-right: auto;
 				margin-left: auto;
 				display: block;
+				padding-top: 3rem;
 			}
 			h1.motto {
 				margin-top: 5rem;
 				margin-bottom: 5rem;
 				text-align: center;
 				font-size: 5rem;
-
+				@media #{$small-only} {
+					font-size: 4rem;				
+				}
 				color: $mainColor;
 				line-height: 1;
 				letter-spacing: .3rem;

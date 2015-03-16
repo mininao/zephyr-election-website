@@ -4,9 +4,9 @@ Router.configure({
   layoutTemplate: 'mainLayout',
   loadingTemplate: 'loading',
   waitOn: function () {
-    if (Meteor.userId()) {
+/*    if (Meteor.userId()) {
       this.subscribe("userData").wait();
-    }
+    }*/
   },
     i18n: {
 		setLanguage: function(lang) {
@@ -66,7 +66,12 @@ Router.route('/register/:activity', function () {
   });
   
 }, {
-  name: 'register'
+  name: 'register',
+	waitOn: function () {
+    if (Meteor.userId()) {
+      this.subscribe("userData").wait();
+    }
+  }
 });
 
 Router.route('/week', function () {
