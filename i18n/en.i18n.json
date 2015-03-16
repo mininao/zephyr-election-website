@@ -48,7 +48,8 @@
 	"register_room_placeholder":"A160",
 	"register_breakfast":"Breakfast",
 	"register_breakfast_placeholder":"Coffee or Cocoa + Plain or Chocolate croissant ?",
-	"register_breakfast_warning":"You're booking for monday morning",
+	"register_breakfast_warning":"You're booking for tomorrow morning",
+	"register_full_warning":"<em>Reservation full !</em> You'll be added to the waiting list.",
 
 	//WEEK
 	"week_pagetitle":"Electoral week",

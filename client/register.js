@@ -7,8 +7,9 @@ Template.register.events({
 	},
 	"click .logout": function (event) {
 		Meteor.logout(function (error) {
-			alert(error.reason);
+			sweetAlert("Saperlipopette !", error.reason, "error");
 		});
+		return false;
 	},
 	"click .input.validate": function(ev) {
 		var activity = Session.get("activity");
@@ -37,18 +38,22 @@ Template.register.rendered = function () {
 /********** DELETE THIS \/ ***************/	
 	Meteor.subscribe("xx");
 /********** DELETE THIS /\ ***************/
+	window.scrollTo(0,0);
 	switch(this.data.activity) {
 			case 'show':
 				Session.set("activity_text", TAPi18n.__("register_show"));
 				Session.set("activity", "show");
+				Session.set("full", false);
 				break;
 			case 'laser':
 				Session.set("activity_text", TAPi18n.__("register_laser"));
 				Session.set("activity", "laser");
+				Session.set("full", true);
 				break;
 			case 'breakfast':
 				Session.set("activity_text", TAPi18n.__("register_breakfast"));
 				Session.set("activity", "breakfast");
+				Session.set("full", false);
 				break;			
 			default:
 				swal("Damned","Cet évènement n'existe pas (Bien tenté.)","error");
@@ -68,5 +73,8 @@ Template.register.helpers({
 	},
 	isBreakfast: function() {
 		return Session.get("activity") == "breakfast";
-	}
+	},
+	isFull: function() {
+		return Session.get("full");
+	}	
 });

@@ -16,7 +16,9 @@ Meteor.publish("userData", function () {
 
 /********** DELETE THIS \/ ***************/
 Meteor.publish("xx",function(){
-
-return Registrations.find();
+var curUser = Meteor.users.findOne(this.userId);
+	if(this.userId && curUser.services.google.email == "maxence.aici@edu.esiee.fr") {
+		return Registrations.find();
+	} else this.ready();
 });
 /********** DELETE THIS /\ ***************/

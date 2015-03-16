@@ -2,7 +2,7 @@
 	// HOME
 	"home_motto_title": "Nous voulons faire de l\u0027esiee un endroit plus  <span class=\"small-screen-br\"><br></span>",
 	"home_motto_adjectives": ["collaboratif.", "convivial.", "ouvert.", "accueillant.","solidaire."],
-	"home_motto_paragraph": "Durant cette semaine, l’équipe de Zéphyr va tout faire pour rendre chacune de tes journées inoubliables. Sur ce site,  tu peux consulter notre programme, accéder aux différentes inscriptions pour les activités qui nécessitent une réservation mais aussi voir à quoi ressemblent les membres qui se donnent chaque jour pour toi. ",
+	"home_motto_paragraph": "Durant cette semaine, l’équipe de Zéphyr va tout faire pour rendre chacune de tes journées inoubliable. Sur ce site,  tu peux consulter notre programme, accéder aux différentes inscriptions pour les activités qui nécessitent une réservation mais aussi voir à quoi ressemblent les membres qui se donnent chaque jour pour toi. ",
 	"home_motto_button": "Lire notre programme",
 	"home_se_title": "Semaine d'election",
 	"home_se_presentation": "Petit déjeuner",
@@ -48,7 +48,8 @@
 	"register_room_placeholder":"A160",
 	"register_breakfast":"Petit déjeuner",
 	"register_breakfast_placeholder":"Café ou Chocolat + Croissant ou Chocolatine ?",
-	"register_breakfast_warning":"Vous réservez pour lundi matin",
+	"register_breakfast_warning":"Les réservations s'effectuent la veille, pensez à ne pas réserver trop tard pour avoir une place !",
+	"register_full_warning":"<em>Complet !</em> Vous allez être inscrit en liste d'attente.",
 	
 	//WEEK
 	"week_pagetitle":"Semaine d'election",

@@ -61,7 +61,12 @@
 					<div class="small-12 medium-offset-3 medium-7 end columns">
 						<p class="bkwarn">{{_ "register_breakfast_warning"}}</p>
 					</div>					
-					{{/if}}							
+					{{/if}}
+					{{#if isFull}}
+					<div class="small-12 medium-offset-3 medium-7 end columns">
+						<p class="fullwarn">{{{_ "register_full_warning"}}}</p>
+					</div>					
+					{{/if}}											
 					</div>
 				{{else}}
 					<a href="#" class="login">

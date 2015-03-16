@@ -47,5 +47,11 @@ Meteor.methods({
 		}
 		result.valid = true;
 		return result;
+	},
+	count: function(activity) {
+		var sorted = Registrations.find({activity:activity},{sort: { date: 1 }}).fetch();
+		_.each(sorted,function(reg, index){
+			Registrations.update({_id:reg._id},{$set:{rank:index}});
+		});
 	}
 });

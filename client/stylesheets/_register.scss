@@ -110,5 +110,17 @@
 				color: #b2c6cd;
 				margin-top: .7rem;
 		}
+		p.fullwarn {
+				text-align: center;
+				color: #f84545;
+				margin-top: .7rem;
+				font-size: 1.25rem;
+			font-weight: 400;
+			em {
+				text-decoration: none;
+				font-weight: 700;
+				font-style: normal;
+			}
+		}
 	}
 }
