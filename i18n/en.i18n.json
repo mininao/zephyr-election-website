@@ -2,7 +2,7 @@
 	// HOME
 	"home_motto_title": "We want esiee to be <br> more <span class=\"small-screen-br\"><br></span>",
 	"home_motto_adjectives": ["welcoming.", "fun.", "collaborative.", "open.", "friendly."],
- 	"home_motto_paragraph":"During this week, the Zéphyr team will do his best to make every day unforgetable. On this website, you'll be able to check out our program, register to the activities which need reservation, and see what the members of our team look like.",
+ 	"home_motto_paragraph":"During this week, the Zéphyr team will do its best to make every day unforgetable. On this website, you'll be able to check out our program, register to the activities which need reservation, and see what the members of our team look like.",
 	"home_motto_button":"Read our program",
 	"home_se_title":"Electoral week",
 	"home_se_presentation":"Breakfast",
@@ -57,12 +57,12 @@
 	//TEAM
 	"team_bureau_title":"Head",
 	"team_bureau_text":"Their goal : Taking important decisions and leading a dedicated team in order to build the best possible associative project, you, students of ESIEE, could like. Just like each of our members, we represent every student of ESIEE.",
-	"team_ve_text":"Do you need help for, exams annals or money? Job and annals team are here for you!<br> The worldwide team is here to make the year of any student from everywhere in the world the best possible!<br>90% of the associative life of our school lies on our association, and they make you live your best moments. The association team is there to help them build their best projects.",
+	"team_ve_text":"Do you need help for, exams annals or money? Job and annals team are here for you!<br> The international team is here to make the year of any student from everywhere in the world the best possible!<br>90% of the associative life of our school lies on our association, and they make you live your best moments. The association team is there to help them build their best projects.",
 	"team_ve_title":"Student life",
 	"team_com_title":"Communication",
 	"team_log_title":"Logistics",
 	"team_event_title":"Events",
-	"team_com_text":"A party, an event, something new in you future students’ union? The web, information, design and redaction teams will let you know!",
+	"team_com_text":"A party, an event, something new in your future students’ union? The web, information, design and redaction teams will let you know!",
 	"team_event_text":"Above all, our students’ union is here for your amusment and satisfaction! Thus, the animation team will organize for you a ton of events during the year.<br>Want to slide or chill out? The journey team  will find for you the best possible excursion!<br>Each one of these events can only be better with a sponsor. The sponsor team is here to find the best partnership !",
 	"team_log_text":"A student union is fun, but we need a strong organisation. The logistic division takes care of the good management of our stocks so that you’ll never miss anything."
 }
