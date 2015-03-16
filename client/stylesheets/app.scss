@@ -42,3 +42,19 @@ body {
 @import "register";
 @import "week";
 @import "team";
+
+.loading {
+	width: 100%;
+	background-color: #364347;
+	h1 {
+		text-align: center;
+		color: white;
+		text-transform: uppercase;
+	}
+	h2 {
+		color: #b2c6cd;
+		text-align: center;
+		font-size: 1rem;
+		font-family: $body-font-family;
+	}
+}
