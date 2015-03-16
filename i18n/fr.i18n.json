@@ -47,7 +47,7 @@
 	"register_room": "Numéro d'appartement",
 	"register_room_placeholder":"A160",
 	"register_breakfast":"Petit déjeuner",
-	"register_breakfast_placeholder":"Café ou Chocolat + Croissant ou Chocolatine ?",
+	"register_breakfast_placeholder":"Café ou Chocolat + Croissant ou Chocolatine + Jus pomme ou multifruit ?",
 	"register_breakfast_warning":"Les réservations s'effectuent la veille, pensez à ne pas réserver trop tard pour avoir une place !",
 	"register_full_warning":"<em>Complet !</em> Vous allez être inscrit en liste d'attente.",
 	

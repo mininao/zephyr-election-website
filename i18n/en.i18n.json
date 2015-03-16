@@ -47,13 +47,21 @@
 	"register_room": "Room number",
 	"register_room_placeholder":"A160",
 	"register_breakfast":"Breakfast",
-	"register_breakfast_placeholder":"Coffee or Cocoa + Plain or Chocolate croissant ?",
+	"register_breakfast_placeholder":"Coffee or Cocoa + Plain or Chocolate croissant + Apple or Multifruit juice ?",
 	"register_breakfast_warning":"You're booking for tomorrow morning",
 	"register_full_warning":"<em>Reservation full !</em> You'll be added to the waiting list.",
 
 	//WEEK
 	"week_pagetitle":"Electoral week",
 	"week_tagline":"Discover our activities!",
+	"week_tuesday":"Tuesday",
+	"week_tuesday_sub":"Il ristorante del lupo",
+	"week_wednesday":"Wednesday",
+	"week_wednesday_sub":"El lobo de Mexico",
+	"week_thursday":"Thursday",
+	"week_thursday_sub":"La piste du loup",
+	"week_breakfast":"Breakfast",
+	"week_breakfast_t":"Are you fed up of preparing your breakfast in the morning while you’re starving to death? Zéphyr is here to get your stomach full ! We deliver with love directly at your student residence (Ampère, Arago or JDS). Cocoa or coffee? Croissant or Chocolate croissant? All of this will be delivered at your door between 7am and 8am!",
 	
 	//TEAM
 	"team_bureau_title":"Head",
