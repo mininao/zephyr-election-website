@@ -3,6 +3,7 @@
 	$oTextColor: white;
 	section.intro {
 		div.top {
+			z-index: -1;
 			position: fixed;
 			top: 0;
 			left: 0;
@@ -45,21 +46,7 @@
 				font-weight: 300;
 				letter-spacing: .3rem;
 			}
-		
-		}
-		.titles {
-			position: fixed;
-			top: 0;
-			left: 0;
-			width: 100%;
-			h3.com {
-				color: $originalBg;
-				text-align: center;
-				text-transform: uppercase;
-				font-size: 4rem;
-				margin-top:20rem;
-				opacity: 0;
-			}	
+			
 		}
 
 		div.topholder {
@@ -86,21 +73,59 @@
 			top:0;
 			right: 0;
 			z-index: -5;
-			background-color: $originalBg;
-			@include cover("/img/program.jpg");
 			width: 100%;
 			height: 100%;
+			background-color: transparent;
 		}
-		div.bg.com {
+		.topholder.bgs:first-child {
+			background-color: $originalBg;
+			@include cover("/img/program.jpg");
+		}
+		.bgs .bg {
 			width: 0px;
 			height: 0px;
 			border-radius: 50%;
-			background-color: #28948c;
 			flex-shrink: 0;
 		}
-		div.part.com {
-			$col: #a88cd5;
-			margin-top: 30rem;
+		.bgs .bg.com {
+			background-color: #b2c6cd;
 		}
+		.bgs .bg.ve {
+			background-color: #364347;
+		}
+		.bgs .bg.vq {
+			background-color: #b2c6cd;
+		}	
+		div.part.com, div.part.vq {
+			margin-top: 30rem;
+			background-color: rgb(178, 198, 205);
+			box-shadow: 0 0 2.5rem 5rem rgb(178, 198, 205);
+		}
+		div.part.ve {
+			margin-top: 30rem;
+			background-color: #364347;
+			box-shadow: 0 0 2.5rem 5rem #364347;
+			h1,p {
+				color: white;
+			}
+		}	
+		.com .pitem, .vq .pitem {
+			margin-bottom: 3rem;
+			svg {
+				#icon path, #icon rect{
+					fill: #b2c6cd;
+				}			
+			}
+		
+		}
+		.ve .pitem {
+			margin-bottom: 3rem;
+			svg {
+				#icon path, #icon rect{
+					fill: #364347;
+				}			
+			}
+		
+		}	
 	}
 }

@@ -1,16 +1,7 @@
 var programResize = function(){
 		var vh  = $( window ).height();
 		var vw  = $( window ).width();
-		var vwprop = 0.5625*vw; // VW reduced to 16/9 proportions
 		$('.topholder').css('height',vh);
-		
-/*		if(vw > vh) {
-			$('.circle').css('height',vw*1.5);
-			$('.circle').css('width',vw)*1.5;
-		} else {
-			$('.circle').css('height',vh*1.5);
-			$('.circle').css('width',vh*1.5);
-		}*/
 }
 
 Template.program.rendered = function () {
@@ -45,8 +36,8 @@ Template.program.rendered = function () {
 	var titleScene3 = new ScrollMagic.Scene({ duration: '40%'})
 					.setTween(".scroll", {opacity: 0})
 					.addTo(controller);		
-	var comUp = true;
-	var comBg = new ScrollMagic.Scene({triggerElement: ".part.com",duration: '120%', triggerHook:1})
+
+	var comBg = new ScrollMagic.Scene({triggerElement: ".part.com",duration: '120%',offset:-270, triggerHook:1})
 					.setTween(".com.bg", {height: "5000px",width: "5000px"})
 					.addTo(controller)
 					/*.on("end",function(e){setTitle("Communication")})*/
@@ -56,13 +47,41 @@ Template.program.rendered = function () {
 					} else if(e.target.controller().info("scrollDirection") == "REVERSE" && e.type=="end") {
 						setTitle("Notre Programme");
 					}});
+	
+	var veBg = new ScrollMagic.Scene({triggerElement: ".part.ve",duration: '120%',offset:-270, triggerHook:1})
+					.setTween(".ve.bg", {height: "5000px",width: "5000px"})
+					.addTo(controller)
+					/*.on("end",function(e){setTitle("Communication")})*/
+					.on("start end",function(e){
+						if (e.target.controller().info("scrollDirection") == "FORWARD" && e.type=="start") {
+						setTitle("Vie etudiante");
+					} else if(e.target.controller().info("scrollDirection") == "REVERSE" && e.type=="end") {
+						setTitle("Communication");
+					}});
+	
+	var vqBg = new ScrollMagic.Scene({triggerElement: ".part.vq",duration: '120%',offset:-270, triggerHook:1})
+					.setTween(".vq.bg", {height: "5000px",width: "5000px"})
+					.addTo(controller)
+					/*.on("end",function(e){setTitle("Communication")})*/
+					.on("start end",function(e){
+						if (e.target.controller().info("scrollDirection") == "FORWARD" && e.type=="start") {
+						setTitle("Vie quotidienne");
+					} else if(e.target.controller().info("scrollDirection") == "REVERSE" && e.type=="end") {
+						setTitle("Vie etudiante");
+					}});	
+	
 
+/*	var veItemsTween = new TweenMax.staggerFromTo(".ve.pitem",1,{opacity:0},{opacity:1})
+	var veItems = new ScrollMagic.Scene({triggerElement: ".pitem",duration: "100%", triggerHook:1})
+					.setTween(itemsTween)
+					.addTo(controller);
 	
-	var comTitle = new ScrollMagic.Scene({triggerElement: ".part.com",duration: 400, triggerHook:.9})
-					.setTween(".titles h3.com", {marginTop: 14*16,opacity:1})
-					.addTo(controller);	
+	var vqItemsTween = new TweenMax.staggerFromTo(".vq.pitem",1,{opacity:0},{opacity:1})
+	var vqItems = new ScrollMagic.Scene({triggerElement: ".pitem",duration: "100%", triggerHook:1})
+					.setTween(itemsTween)
+					.addTo(controller);	*/
 	
-	var startTypingScene = new ScrollMagic.Scene({triggerElement:"#wedo", triggerHook:0.60})
+/*	var startTypingScene = new ScrollMagic.Scene({triggerElement:"#wedo", triggerHook:0.60})
 					.addTo(controller)
 					.on("enter", function (e) {
 						startTyping();
@@ -70,7 +89,7 @@ Template.program.rendered = function () {
 	
 	var peopleScene = new ScrollMagic.Scene({triggerElement:"#team", triggerHook:1, duration:'150%'})
 					.addTo(controller)
-					.setTween("#team", {backgroundPosition: "100% 0%"});	
+					.setTween("#team", {backgroundPosition: "100% 0%"});	*/
 	
 }
 Template.program.destroyed = function () {

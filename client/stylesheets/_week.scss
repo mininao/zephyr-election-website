@@ -6,18 +6,19 @@
 	min-height: 110%;
 	background-color: $bgColor;
 	section.title {
-		@include cover('/img/home3.jpg');
+		@include cover('/img/week.jpg');
 		background-attachment: fixed;
+		background-position: bottom center;
 		.row.main {
 			@include sectionSize();
 			
 			h1 {
-				color:$bgColor;
+				color:$textColor;
 				@include sectionTitle();
 			}	
 			p.tagline {
 				text-align: center;
-				color: $bgColor;
+				color: $textColor;
 				font-size: 1.5rem;
 			}			
 		}
@@ -104,11 +105,13 @@
 		}
 	}
 	section.day.tuesday {
-		$textColor: white;
+		$textEmphasis: #F06546;
+		$textColor: #2B3639;
+		$bgColor: white;
 		.title h2 , .title h1, .tlwrap h2 , .tlwrap h1 {
 			color: $textColor;
 		}
-		background-color: #25223E;
+		background-color: white;
 			.bar {
 				background-color: #2E2944;
 			}
