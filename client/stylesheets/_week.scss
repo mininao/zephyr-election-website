@@ -46,7 +46,7 @@
 			height: 100%;
 			width: 1.5rem;
 		}	
-	}	
+	}
 	section.day {
 		position: relative;
 		.tlwrap {
@@ -102,5 +102,21 @@
 				text-transform: uppercase;
 			}
 		}
+	}
+	section.day.tuesday {
+		$textColor: white;
+		.title h2 , .title h1, .tlwrap h2 , .tlwrap h1 {
+			color: $textColor;
+		}
+		background-color: #25223E;
+			.bar {
+				background-color: #2E2944;
+			}
+			.tlwrap .dotwrap .dot-around {
+				background-color: #2E2944;
+			}		
+			.tlwrap .dotwrap .dot {
+				background-color: $textColor;
+			}			
 	}
 }

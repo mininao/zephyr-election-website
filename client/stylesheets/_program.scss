@@ -1,0 +1,106 @@
+.page.program {
+	$originalBg: #364347;
+	$oTextColor: white;
+	section.intro {
+		div.top {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			img.logo {
+				width: 20rem;
+				margin-right: auto;
+				margin-left: auto;
+				display: block;
+				padding-top: 3rem;
+			}
+			h1.motto {
+				margin-top: 5rem;
+				margin-bottom: 3rem;
+				text-align: center;
+				font-size: 5rem;
+				@media #{$small-only} {
+					font-size: 4rem;				
+				}
+				color: $oTextColor;
+				line-height: 1;
+				letter-spacing: .3rem;
+				text-transform: uppercase;
+				.blink {
+					font-family: "Source Sans Pro";
+					position: relative;
+					top: -.8rem;
+					color: $oTextColor;
+					animation: blink 0.7s infinite;
+				}			
+			}
+			h2 {
+				font-family: $body-font-family;
+				color: $oTextColor;
+				font-weight: 300;
+				letter-spacing: .3rem;
+			}
+		
+		}
+		.titles {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			h3.com {
+				color: $originalBg;
+				text-align: center;
+				text-transform: uppercase;
+				font-size: 4rem;
+				margin-top:20rem;
+				opacity: 0;
+			}	
+		}
+
+		div.topholder {
+			width: 100%;
+			height: 100%;
+			position: relative;
+			.scroll {
+				position: absolute;
+				bottom: 0;
+				width: 100%;
+				text-align: center;
+				i {
+					color: $oTextColor;
+					font-size: 4rem;
+					margin-bottom: -.5rem;
+				}
+			}
+		}
+		.topholder.bgs {
+			position: fixed;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			top:0;
+			right: 0;
+			z-index: -5;
+			background-color: $originalBg;
+			@include cover("/img/program.jpg");
+			width: 100%;
+			height: 100%;
+		}
+		div.bg.com {
+			width: 0px;
+			height: 0px;
+			border-radius: 50%;
+			background-color: #28948c;
+			flex-shrink: 0;
+		}
+		div.part.com {
+			$col: #a88cd5;
+			margin-top: 30rem;
+		}
+	}
+}

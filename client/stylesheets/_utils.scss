@@ -1,4 +1,4 @@
-.nomarginfusion {height: .01px; width: 100%;background-color: black;}
+.nomarginfusion {height: .01px; width: 100%;background-color: transparent;}
 
 @mixin cover($url) {
 	background-image: url($url);

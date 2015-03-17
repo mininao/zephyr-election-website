@@ -27,7 +27,7 @@ Template.home.rendered = function () {
 			backDelay: 2000,
 			showCursor: false,
 			loop: true,
-			loopCount: false,		
+			loopCount: false
 		  });
 	}
 	
