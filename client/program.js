@@ -5,6 +5,7 @@ var programResize = function(){
 }
 
 Template.program.rendered = function () {
+	window.scrollTo(0,0);
 	var setTitle = function(text) {
 		var title = $('h1.motto .change');
 		var speed = 300;
@@ -26,7 +27,7 @@ Template.program.rendered = function () {
 	
 	// test scene 
 	var titleScene = new ScrollMagic.Scene({ duration: '100%'})
-					.setTween(".intro .top", {height: "20%"})
+					.setTween(".intro .top", {height: "22%"})
 					.addTo(controller);
 	
 	var titleScene2 = new ScrollMagic.Scene({ duration: '100%'})

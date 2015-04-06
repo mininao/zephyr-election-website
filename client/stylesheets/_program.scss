@@ -26,9 +26,9 @@
 				text-align: center;
 				font-size: 5rem;
 				@media #{$small-only} {
-					font-size: 4rem;				
+					font-size: 3rem;				
 				}
-				color: $oTextColor;
+				color: rgb(147, 164, 170);
 				line-height: 1;
 				letter-spacing: .3rem;
 				text-transform: uppercase;
@@ -42,7 +42,7 @@
 			}
 			h2 {
 				font-family: $body-font-family;
-				color: $oTextColor;
+				color: rgb(147, 164, 170);
 				font-weight: 300;
 				letter-spacing: .3rem;
 			}
@@ -88,18 +88,26 @@
 			flex-shrink: 0;
 		}
 		.bgs .bg.com {
-			background-color: #b2c6cd;
+			background-color: white;
 		}
 		.bgs .bg.ve {
 			background-color: #364347;
 		}
 		.bgs .bg.vq {
-			background-color: #b2c6cd;
-		}	
+			background-color: white;
+		}
+		div.part {
+			h1 {
+				text-transform: uppercase;
+			}
+			p {
+				text-align: justify;
+			}
+		}
 		div.part.com, div.part.vq {
 			margin-top: 30rem;
-			background-color: rgb(178, 198, 205);
-			box-shadow: 0 0 2.5rem 5rem rgb(178, 198, 205);
+			background-color: white;
+			box-shadow: 0 0 2.5rem 5rem white;		
 		}
 		div.part.ve {
 			margin-top: 30rem;
@@ -107,13 +115,16 @@
 			box-shadow: 0 0 2.5rem 5rem #364347;
 			h1,p {
 				color: white;
-			}
+			}		
 		}	
 		.com .pitem, .vq .pitem {
 			margin-bottom: 3rem;
 			svg {
-				#icon path, #icon rect{
-					fill: #b2c6cd;
+				path {
+					fill: #364347;
+				}				
+				#icon path, #icon rect, g:nth-child(3) > g:nth-child(2)  path {
+					fill: white;
 				}			
 			}
 		
@@ -121,9 +132,23 @@
 		.ve .pitem {
 			margin-bottom: 3rem;
 			svg {
-				#icon path, #icon rect{
+				path {
+					fill: white;
+				}
+				#icon path, #icon rect, g:nth-child(3) > g:nth-child(2) > path {
 					fill: #364347;
 				}			
+			}
+			svg#euro {
+				path {
+					fill: white;
+				}
+				g:nth-child(3) > g:nth-child(2) > path {
+					fill: white;
+				}
+				g:nth-child(3) > g:nth-child(1) path {
+					fill: #364347;
+				}
 			}
 		
 		}	
