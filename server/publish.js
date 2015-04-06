@@ -14,11 +14,10 @@ Meteor.publish("userData", function () {
 		this.ready();
 });
 
-/********** DELETE THIS \/ ***************/
+/** For debug purposes only**/
 Meteor.publish("xx",function(){
 var curUser = Meteor.users.findOne(this.userId);
 	if(this.userId && curUser.services.google.email == "maxence.aici@edu.esiee.fr") {
 		return Registrations.find();
 	} else this.ready();
 });
-/********** DELETE THIS /\ ***************/

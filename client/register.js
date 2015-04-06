@@ -35,9 +35,8 @@ Template.register.events({
 });
 
 Template.register.rendered = function () {
-/********** DELETE THIS \/ ***************/	
+/* For debug only */	
 	Meteor.subscribe("xx");
-/********** DELETE THIS /\ ***************/
 	window.scrollTo(0,0);
 	switch(this.data.activity) {
 			case 'show':
